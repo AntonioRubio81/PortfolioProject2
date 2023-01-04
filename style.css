@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(rgba(255, 0, 0,));
+    background-color: #FFFFFF;
+    background-image: linear-gradient(45deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+
+}
+header {
+    width: 100%;
+    background: rgb(9, 9, 105);
+    background: linear-gradient(rgba(rgb(0, 0, 255,0.5)));
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 14vh;
+}
+h1 {
+    color:azure;
+    font-family: "Audiowide", sans-serif;
+    margin-left: 15px;
+    font-style: oblique;
+    letter-spacing: 1.8px;
+   
+}
+
+.menu-bar {
+    background: rgb(9, 9, 105);
+    color:azure;
+    font-family: "Audiowide", sans-serif;
+    font-size: 40px;
+    padding-right: 1%;
+    border: 30px solid purple;
+}
+nav a:hover{
+    
+   
+ }
+ nav a {
+    text-decoration: none;
+ }
+.container1, .container2 {
+   display: flex;
+   flex-direction: row;
+}
+.box-1 {
+    align-items: center;
+    justify-content: space-between;
+    border: 20px solid red;
+
+}
+.intro {
+    
+    text-align: center;
+    justify-content: space-between;
+    color: white;
+    border: 10px solid greenyellow;
+}
+
+h2 {
+    
+    max-width: 100%;
+    text-transform: uppercase;
+    /* font-size: 50%; */
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    color: azure;
+}
+.intro h2 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h4 {
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+}
+.container2 {
+    border: 40px solid pink;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 850px;
+    
+
+}
+.videos {
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+ ul {
+    list-style: none;
+    display: flex;
+   
+ }
+ li {
+    padding-right: 5rem;
+    
+}
+
+ .container3 {
+
+    border: 50px solid rgb(128, 77, 0);
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: ;
+ }
+ .footer{
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+
+ }
